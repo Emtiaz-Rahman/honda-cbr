@@ -5,6 +5,18 @@ bg_button{
     background: #E76F51;
 
 }
+/*   =========== header part end ============*/
 
+#banner_part{
+    background: #264653;
+}
+.banner_text{
+    color: white;
+}
+.btn{
+    background: #E76F51; 
+    color: white;
+}
+/* ============= banner part end ============ */
 
 
