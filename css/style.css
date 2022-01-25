@@ -5,11 +5,43 @@ bg_button{
     background: #E76F51;
 
 }
+.btn-outline-success {
+    border-color: #E76F51;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background: red;
+    border-color: red;
+}
+.btn-outline-success:focus {
+    box-shadow: none;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.btn-outline-success:active {
+    color: #fff;
+    background: #E76F51;
+    border-color: #E76F51 !important;
+}
+.btn-outline-success:active:focus {
+    box-shadow: none;
+}
+
 /*   =========== header part end ============*/
 
 #banner_part{
     background: #264653;
+    padding-bottom: 30px;
 }
+.banner_img img{
+    transition: all linear 0.4s;
+}
+#banner_part:hover .banner_img img{
+    transform: scale(1.1);
+}
+
+
 .banner_text{
     color: white;
 }
@@ -17,6 +49,17 @@ bg_button{
     background: #E76F51; 
     color: white;
 }
+.banner_text button:hover {
+    color: white;
+    background-color: red;
+}
+.banner_text button{
+    transition: all linear 0.4s;
+}
 /* ============= banner part end ============ */
 
+.dark_img{
+    filter: grayscale(100%);
+}
+/* ================ fetured part end ============= */
 
